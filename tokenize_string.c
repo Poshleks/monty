@@ -1,4 +1,4 @@
-#include <stdlib.h>
+ #include <stdlib.h>
 
 char **strtow(char *str, char *delims);
 int is_delim(char ch, char *delims);
@@ -164,3 +164,4 @@ char *get_next_word(char *str, char *delims)
 	}
 	return (str + i);
 }
+
